@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/07 10:00:31.000.604,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/03/11 17:32:53.000.796,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/03/11 19:47:08.000.318,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/03/11 20:52:06.000.514,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/03/11 20:55:55.000.732,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Programmez\FMX\Unit1.pas</Transaction>
+    <Transaction>2018/03/11 20:55:55.000.732,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.fmx=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Programmez\FMX\Unit1.fmx</Transaction>
+    <Transaction>2018/03/11 20:56:00.000.926,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Programmez\FMX\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pimac iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

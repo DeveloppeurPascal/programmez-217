@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 150
+  Top = 150
+  Caption = 'Form1'
+  ClientHeight = 123
+  ClientWidth = 187
+  Padding.Left = 5.000000000000000000
+  Padding.Top = 5.000000000000000000
+  Padding.Right = 5.000000000000000000
+  Padding.Bottom = 5.000000000000000000
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  Left = 150
+  Top = 150
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 177.000000000000000000
+    Size.Height = 113.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button1: TButton
+      Align = Top
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 167.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Me connecter'
+      OnClick = Button1Click
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 1
+      Password = True
+      Position.X = 5.000000000000000000
+      Position.Y = 32.000000000000000000
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 167.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Votre mot de passe'
+      object FloatAnimation1: TFloatAnimation
+        Duration = 0.200000002980232200
+        OnFinish = FloatAnimation1Finish
+        PropertyName = 'RotationAngle'
+        StartValue = 0.000000000000000000
+        StopValue = 360.000000000000000000
+      end
+    end
+    object Label1: TLabel
+      Align = Top
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 167.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Bonjour bel.le inconnu.e'
+      TabOrder = 2
+    end
+    object FloatAnimation2: TFloatAnimation
+      Duration = 1.000000000000000000
+      OnFinish = FloatAnimation2Finish
+      PropertyName = 'Height'
+      StartValue = 0.000000000000000000
+      StartFromCurrent = True
+      StopValue = 0.000000000000000000
+    end
+  end
+end
